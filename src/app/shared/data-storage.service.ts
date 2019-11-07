@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { RecipeService } from '../recipes/recipe.service';
 import { Http, Response } from '@angular/http';
 import { Recipe } from '../recipes/recipe.model';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class DataStorageService {
